@@ -13,6 +13,7 @@ The following patches have been applied:
 - glyph wide support
 - scrollback
 - font2
+- alpha
 
 
 Requirements
