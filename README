@@ -10,6 +10,9 @@ Patches
 The following patches have been applied:
 
 - boxdraw
+- glyph wide support
+- scrollback
+- font2
 
 
 Requirements
