@@ -5,6 +5,13 @@ My build of st, a simple terminal emulator for X which sucks less.
 Forked from git.suckless.org/st.
 
 
+Patches
+-------
+The following patches have been applied:
+
+- boxdraw
+
+
 Requirements
 ------------
 In order to build st you need the Xlib header files.
