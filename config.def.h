@@ -115,28 +115,29 @@ float alpha = 0.9;
 static const char *colorname[] = {
     /* 8 normal colors */
     [0] = "#000000", /* black   */
-    [1] = "#990000", /* red     */
-    [2] = "#009900", /* green   */
-    [3] = "#999900", /* yellow  */
-    [4] = "#123e7c", /* blue    */
-    [5] = "#711c91", /* magenta */
-    [6] = "#0abdc6", /* cyan    */
-    [7] = "#d7d7d5", /* white   */
+    [1] = "#cd0000", /* red     */
+    [2] = "#00cd00", /* green   */
+    [3] = "#cdcd00", /* yellow  */
+    [4] = "#0000ee", /* blue    */
+    [5] = "#cd00cd", /* magenta */
+    [6] = "#00cdcd", /* cyan    */
+    [7] = "#e5e5e5", /* white   */
 
     /* 8 bright colors */
-    [8]  = "#1c61c2", /* black   */
+    [8]  = "#7f7f7f", /* black   */
     [9]  = "#ff0000", /* red     */
     [10] = "#00ff00", /* green   */
     [11] = "#ffff00", /* yellow  */
-    [12] = "#6666ff", /* blue    */
-    [13] = "#711c91", /* magenta */
+    [12] = "#5c5cff", /* blue    */
+    [13] = "#ff00ff", /* magenta */
     [14] = "#00ffff", /* cyan    */
     [15] = "#ffffff", /* white   */
 
     /* special colors */
-    [256] = "#000b1e", /* background */
-    [257] = "#0abdc6", /* foreground */
-    [258] = "#ffffff", /* cursor */
+    [256] = "#000000", /* background */
+    [257] = "#e5e5e5", /* foreground */
+    [258] = "#cccccc", /* cursor */
+    [259] = "#555555", /* reverse cursor */
 };
 
 
@@ -147,7 +148,7 @@ static const char *colorname[] = {
 unsigned int defaultfg = 257;
 unsigned int defaultbg = 256;
 unsigned int defaultcs = 258;
-static unsigned int defaultrcs = 258;
+static unsigned int defaultrcs = 259;
 
 /*
  * Default shape of cursor
