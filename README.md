@@ -1,7 +1,7 @@
 # st - simple terminal
 My build of st, a simple terminal emulator for X which sucks less.
 
-Forked from [suckless](git.suckless.org/st).
+Forked from [suckless](https://git.suckless.org/st).
 
 
 ## Patches
